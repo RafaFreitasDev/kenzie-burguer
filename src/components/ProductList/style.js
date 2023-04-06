@@ -6,6 +6,7 @@ export const StyledProductList = styled.ul`
   padding: 15px;
   overflow-x: auto;
   justify-content: flex-start;
+  margin-top: 100px;
 
   ${({ isSearch }) => {
     if (isSearch) {
